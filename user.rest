@@ -1,0 +1,13 @@
+
+#post request 
+
+POST http://localhost:3000/user
+
+Content-Type: "application/json"
+{
+    "firstName":"Sakib",
+    "lastName":"Ahmed",
+    "phone": "0152130251",
+    "password":"abc",
+    "tosAgrement": "Yes"
+}
